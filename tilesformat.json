@@ -1,0 +1,18 @@
+{
+    "tile_gazebo" : "'''防空符文'''<br>部署其上的干员攻击速度降低{$ attack_speed $}，对飞行单位攻击力提升至{$ (atk_scale * 100)|int $}%",
+    "tile_bigforce": "'''特种战术点'''<br>部署其上的干员在推动或拉动敌方单位时力度增加{$ base_force_level | int $}个等级",
+    "tile_healing": "'''医疗符文'''<br>部署在其上的干员每秒持续恢复{$ (HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO *100) | int $}%最大生命值",
+    "tile_defup": "'''防御符文'''<br>部署于其上的干员获得防御力增加？",
+    "tile_infection": "'''活性源石'''<br>部署于其上的我军和经过的敌军在{$ duration | int $}s内<br>每秒持续受到{$ damage | int $}真实伤害，攻击力提升{$ (atk * 100)|int $}%，攻击速度增加{$ attack_speed | int $}",
+    "tile_volcano": "'''热泵通道'''<br>每{$ cd_min | int $}~{$ cd_max | int $}秒造成一次{$ damage | int $}真实伤害",
+    "tile_corrosion": "'''腐蚀地表'''置于其中的干员防御力减少至原来的{$ def | int $}",
+    "tile_volspread":"'''岩浆喷射处'''<br>每隔$ cd_min | int $}~{$ cd_max | int $}秒会喷出岩浆，对周围8格内的我方单位造成{$ damage | int $}真实伤害并且融化障碍物",
+    "tile_defbreak": "'''腐蚀地面'''置于其中的干员防御力减少至原来的{$ def | int $}",
+    "tile_yinyang_wall": "'''晦明之印'''<br>置于其中的干员获得与其相同的明晦属性<br>对同属性单位进行攻击时，攻击力降低至{$ (buff_yinyang__same____atk_scale * 100)|int $}%；对异属性单位进行攻击时，攻击力提高至{$ (buff_yinyang__diff____atk_scale * 100)|int $}%",
+    "tile_yinyang_road": "'''晦明之印'''<br>置于其中的干员获得与其相同的明晦属性<br>对同属性单位进行攻击时，攻击力降低至{$ (buff_yinyang__same____atk_scale * 100)|int $}%；对异属性单位进行攻击时，攻击力提高至{$ (buff_yinyang__diff____atk_scale * 100)|int $}%",
+    "tile_poison": "'''瓦斯喷射器'''<br>置于其中的干员每秒受到{$ damage | int $}点真实伤害",
+    "tile_passable_wall": "'''玉门天灾工事'''<br>为地势高于普通地面的远程位地面地块<br>可通过环境调控装置<[[地形增伤控制]]>获得效果",
+    "tile_stairs":"'''云梯'''<br>敌人可通过此处上下玉门天灾工事",
+    "tile_grvtybtn": "'''重力感应机关'''<br>阻挡数≥{$ activate_block_cnt | int $}的我方单位/重量等级≥3的敌方单位可触发机关尝试改变重力方向；多个机关可触发时保留最早触发的机关效果，直至其已不满足触发条件<br>'''初始激活的机关：向上(UP)/向下(DOWN)'''",
+    "tile_woodrd": "'''临时步道'''<br>每个拥有如图所示的初始耐久（显示于左侧），{{color|#9f2c21|'''最高耐久为8点'''}}，步道状态下为可部署可通行地面<br>受[[落石]]影响时损失耐久，耐久为0时被破坏为地穴（不改变步道本质）"
+}

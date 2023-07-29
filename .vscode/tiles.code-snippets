@@ -1,0 +1,18 @@
+{
+	"int": {
+		"scope": "json",
+		"prefix": "",
+		"body": [
+			"{$ $1 | int $}"
+		],
+		"description": "{$ duration | int $}"
+	},
+	"percent": {
+		"scope": "json",
+		"prefix": "",
+		"body": [
+			"{$ ($1 * 100)|int $}"
+		],
+		"description": "{$ (atk_scale * 100)|int $}"
+	}
+}
