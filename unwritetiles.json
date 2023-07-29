@@ -38,5 +38,7 @@
     "tile_passable_wall_forbidden",
     "tile_telout",
     "tile_ristar_road",
+    "tile_pollution_road",
+    "tile_pollution_wall",
     "enemy"
 ]
