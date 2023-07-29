@@ -2,7 +2,7 @@
     "tile_gazebo" : "'''防空符文'''<br>部署其上的干员攻击速度降低{$ attack_speed $}，对飞行单位攻击力提升至{$ (atk_scale * 100)|int $}%",
     "tile_bigforce": "'''特种战术点'''<br>部署其上的干员在推动或拉动敌方单位时力度增加{$ base_force_level | int $}个等级",
     "tile_healing": "'''医疗符文'''<br>部署在其上的干员每秒持续恢复{$ (HP_RECOVERY_PER_SEC_BY_MAX_HP_RATIO *100) | int $}%最大生命值",
-    "tile_defup": "'''防御符文'''<br>部署于其上的干员获得防御力增加？",
+    "tile_defup": "'''防御符文'''<br>部署于其上的干员获得防御力增加{$ def | int $}",
     "tile_infection": "'''活性源石'''<br>部署于其上的我军和经过的敌军在{$ duration | int $}s内<br>每秒持续受到{$ damage | int $}真实伤害，攻击力提升{$ (atk * 100)|int $}%，攻击速度增加{$ attack_speed | int $}",
     "tile_volcano": "'''热泵通道'''<br>每{$ cd_min | int $}~{$ cd_max | int $}秒造成一次{$ damage | int $}真实伤害",
     "tile_volspread":"'''岩浆喷射处'''<br>每隔$ cd_min | int $}~{$ cd_max | int $}秒会喷出岩浆，对周围8格内的我方单位造成{$ damage | int $}真实伤害并且融化障碍物",
