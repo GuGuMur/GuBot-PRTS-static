@@ -35,6 +35,7 @@
     "tile_rcm_crate",
     "tile_hole",
     "tile_mire",
+    "tile_passable_wall_forbidden",
     "tile_telout",
     "tile_ristar_road",
     "enemy"
