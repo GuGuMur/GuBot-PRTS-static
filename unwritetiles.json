@@ -42,5 +42,7 @@
     "tile_ristar_road",
     "tile_pollution_road",
     "tile_pollution_wall",
+    "tile_green",
+    "tile_act27side",
     "enemy"
 ]
