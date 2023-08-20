@@ -2,11 +2,16 @@
 用于PRTS GuBot编辑用的静态文件
 
 ## 小队群内使用方法
-每次更新时更新该库后群内@鸽机(可用的那个)并附文字`关卡更新`，鸽机会自动开始更新
+<del>每次更新时更新该库后群内@鸽机(可用的那个)并附文字`关卡更新`，鸽机会自动开始更新</del>
+
+每次更新时从小队群里下载文件`prts_stage.zip`，安装要求的库并更新GameData后执行包里的`__init__.py`文件
 
 ## 文件介绍
 
 ### [unwritetiles.json](/unwritetiles.json)
+本文件使用List储存不需要处理的特殊地形
+
+### [unwritetraps.json](/unwritetraps.json)
 本文件使用List储存不需要处理的特殊地形
 
 ### [tilesformat.json](/tilesformat.json)
