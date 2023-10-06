@@ -16,10 +16,10 @@ mw.loader.load('/index.php?title=User:GuBot/trapper.js&action=raw&ctype=text/jav
 ## 文件介绍
 
 ### [unwritetiles.json](/unwritetiles.json)
-本文件使用List储存不需要处理的特殊地形
+本文件使用List储存不需要处理的地形
 
 ### [unwritetraps.json](/unwritetraps.json)
-本文件使用List储存不需要处理的特殊地形
+本文件使用List储存不需要处理的装置
 
 ### [tilesformat.json](/tilesformat.json)
 本文件使用Json + jinja2模板 规定bot撰写特殊地形时的格式
