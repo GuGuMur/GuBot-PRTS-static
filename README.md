@@ -1,3 +1,4 @@
+# 已弃用，请参考[PRTS:User:GuBot/trapper](https://prts.wiki/w/user:GuBot/trapper)
 # GuBot-PRTS-static
 用于PRTS [GuBot](https://prts.wiki/w/User:GuBot) 和 [trapper-script](https://github.com/GuGuMur/trapper-script)编辑用的静态文件
 
